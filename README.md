@@ -11,3 +11,19 @@ Next day: Today we used many of the hardware components in the starter kit that 
 
 ![image1](./images/raspberrypi-2.jpeg)
 
+Today we accessed Microsoft Azure.
+We created an Iot hub.
+Used a raspberry pi simulator.
+Added device to Iot hub.
+Managed simulator from Iot hub by turning LED on and off.
+Created a new Iot hub for the physical device.
+Added real raspberry pi device.
+Installed Putty on laptop.
+Remotely connected over the internet to raspberry pi device using Putty and SSH.
+Had to obtain the IP address using shell command `ifconfig`.
+IP address was 192.168.0.207.
+We downloaded and installed Visual Studio Code to allow us to authenticate to Github to clone the repo [https://github.com/Azure-Samples/azure-iot-samples-node.git](https://github.com/Azure-Samples/azure-iot-samples-node.git).
+We then installed the sample packages from the repo using the command `npm install`.
+
+
+![image1](./images/raspberrypi-3.jpeg)
