@@ -27,3 +27,20 @@ We then installed the sample packages from the repo using the command `npm insta
 
 
 ![image1](./images/raspberrypi-3.jpeg)
+
+
+Today we configered our sample application to use simulated data as we do notnhave a sensor yet.
+we edited the config.json.
+We tried to run the application but immediately got errors about not being able to access a cjs package.
+We spent the remainder of the day trouble shooting:
+We uninstalled `nodejs`, and reinstalled version 12.x.
+We reinstalled the azure iot sample packages in the global context and the local usr context using the commands `npm install` inside the folder. We used `npm install -g` for the global context.
+
+We tracked down and installed a missing `cjs` package using `npm install cjs -g` to install it globally. We also installed it locally but to no avail.
+
+Frustrating day but we learned about how packages are installed.
+
+We used more commands such as `npm list` `npm root` `npm prefix` `npm bin` `npm get prefix` `npm list -g --depth 0` 
+
+
+![image1](./images/emailgrab.png)
