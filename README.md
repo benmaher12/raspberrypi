@@ -46,7 +46,7 @@ We used more commands such as `npm list` `npm root` `npm prefix` `npm bin` `npm 
 ![image1](./images/emailgrab.png)
 
 
-Today we worked remotely from home. I completed module 1 of the pluralsight hardware fundamentals course. We tried to connect remotely to the raspberry pi device. We looked at options around proxies and firewalls and port forwarding but they proved a bit too complicated. We came upon a solution upon VNC. It is pre installed on the raspberry pi. We enabled VNC server.
+Today we worked remotely from home and did voice and video calls over Microsoft Teams. We shared screens to help us troubleshoot issues. I completed module 1 of the pluralsight hardware fundamentals course. We tried to connect remotely to the raspberry pi device. We looked at options around proxies and firewalls and port forwarding but they proved a bit too complicated. We came upon a solution upon VNC. It is pre installed on the raspberry pi. We enabled VNC server.
 
 
 ![image1](./images/raspberrypi-4.jpeg)
