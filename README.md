@@ -58,3 +58,6 @@ We signed up for a VNC account and we installed VNC viewer on our local machine 
 
 ![image1](./images/raspberrypi-5.jpeg)
 
+Today I started on a new module in the pluralsight Computer Hardware Course. The module was cables and connectors and talked about topics such as internet cables and the power and pins of different connectors. It also showed pictures of the wires inside of different cables and explained how the names of the cables are connected to the appearance of the wires.
+
+We then went through the steps on the microsoft docs site. We used VNC and VSC to to this. When it came to running the sample application we came across the same error again which involved terms such as 'throw e' and 'no such file or directory'. There is a picture of the error further up the page. The error also mentioned files such as 'cjs' and 'internal/modules'.
