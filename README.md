@@ -61,3 +61,22 @@ We signed up for a VNC account and we installed VNC viewer on our local machine 
 Today I started on a new module in the pluralsight Computer Hardware Course. The module was cables and connectors and talked about topics such as internet cables and the power and pins of different connectors. It also showed pictures of the wires inside of different cables and explained how the names of the cables are connected to the appearance of the wires.
 
 We then went through the steps on the microsoft docs site. We used VNC and VSC to to this. When it came to running the sample application we came across the same error again which involved terms such as 'throw e' and 'no such file or directory'. There is a picture of the error further up the page. The error also mentioned files such as 'cjs' and 'internal/modules'.
+
+Firstly today, I continued working on the computer hardware fundamentals course. I followed modules about internal Hardware Components such as Mobos and CPUs and then another topic being PC Storage.
+
+We then continued working with the RaspberryPi and because of issues with Python we decided to try a different language called C. It has dependancies on a number of Github repos. One of which is discontinued. We sourced an alternative repo for the one that has been discontinued. The four repos we use are:
+
+- [https://github.com/Azure-Samples/iot-hub-c-raspberrypi-client-app.git](https://github.com/Azure-Samples/iot-hub-c-raspberrypi-client-app.git)
+- [http://github.com/azure/azure-iot-sdk-c.git](http://github.com/azure/azure-iot-sdk-c.git)
+- [https://github.com/WiringPi/WiringPi.git](https://github.com/WiringPi/WiringPi.git)
+- [https://github.com/kgabis/parson.git](https://github.com/kgabis/parson.git)
+
+We edited the `setup.sh` file to clone the replacement repo. That worked fine. But the folder structure seems to be slighty different to the original. We are getting a build error which we tried to trouble shoot. But with no success today. We need to step through the build script line by line to ensure that it can find the commands it is calling at run time.
+
+This is the error we ended with today.
+
+![image1](./images/raspberrypi-6.png)
+
+
+
+
