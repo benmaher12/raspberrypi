@@ -78,5 +78,16 @@ This is the error we ended with today.
 ![image1](./images/raspberrypi-6.png)
 
 
+Firstly, I finished the pluralsight compuer hardware course. The modules uncluded some infromation about PC Storage and printers along with multifunctional devices.
 
+Next, we installed the azure IOT extensions on VSC.
 
+[azure iot tools](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools)
+
+We then re-ran the previously attempted python steps. We still got the same error. We switched our attention to [Quickstart: Send telemetry from a device to an IoT hub and monitor it with the Azure CLI](https://docs.microsoft.com/en-us/azure/iot-hub/quickstart-send-telemetry-cli)
+
+We used the azure cloud shell, created a simulated device, registered the device with our previously created azure iot hub and then we were able to connect the simulated device to azure iot and send data to azure. In a separate cloud shell we monitored the device and send messages from azure to the device and back. We were able to visualize data sent to and from the device in the azure portal. 
+
+We were finally able to connect and manage a device with azure iot. We then looked at next steps we plan on using next week. After this I completed the first module of an azure fundamentals course.
+
+[Exam AZ-900: Microsoft Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900)
