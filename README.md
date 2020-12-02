@@ -100,7 +100,7 @@ I then used a soldering iron to solder the two components together but following
 
 We then decided to attempt to connect a different type of sensor to the raspberry pi. It was called a DHT11. It required no soldering but a much more complicated circuit. I followed steps to connect this sensor to the raspberry pi but yet again there was no luck and the circuit would not work. We decided to leave it the way it was and avoid more trouble shooting.
 
-Below is an image of the DHT11 sensor.
+Below is an image of the bme280 sensor.
 
 ![image1](./images/raspberrypi-7.png)
 
