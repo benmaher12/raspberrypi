@@ -91,3 +91,16 @@ We used the azure cloud shell, created a simulated device, registered the device
 We were finally able to connect and manage a device with azure iot. We then looked at next steps we plan on using next week. After this I completed the first module of an azure fundamentals course.
 
 [Exam AZ-900: Microsoft Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900)
+
+Today, I started off by making a circuit for the bme280 sensor which used four female-female wires. I followed steps on raspberrypi.com to enable i2c which was needed to connect the sensor to the raspberry pi.
+
+I used commands such as  "wget https://bitbucket.org/MattHawkinsUK/rpispy-misc/raw/master/python/bme280.py" and "python bme280.py" to download and run the required script. Following this we faced an error that was the raspberry pi not being able to pick up the sensor. This meant that the sensor needed to be soldered to the pins for the breadboard.
+
+I then used a soldering iron to solder the two components together but following this we faced the same error yet again.
+
+We then decided to attempt to connect a different type of sensor to the raspberry pi. It was called a DHT11. It required no soldering but a much more complicated circuit. I followed steps to connect this sensor to the raspberry pi but yet again there was no luck and the circuit would not work. We decided to leave it the way it was and avoid more trouble shooting.
+
+Below is an image of the DHT11 sensor.
+
+![image1](./images/raspberrypi-7.png)
+
