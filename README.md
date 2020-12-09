@@ -109,3 +109,7 @@ Today I started two new modules on the Azure Fundamentals course on docs.microso
 After this, we picked up where we finished off last week with the raspberry pi. We attempted to follow the steps we were previously using but the device was getting no readings from the DHTll sensor. We then started on another set of steps. They used a new circuit. I set the circuit up and then we began putting the required commands. After this I wrote out the code from the steps. We entered the command to run the code but it gave us an error on line 8 which after multiple attempts of fixing, was still very much there.
 
 We plan to do some research and attempt to make it work next week. This avoids a long day of troubleshooting.
+
+Below is a picture of the code we used.
+
+![image1](./images/raspberrypi-8.jpeg)
