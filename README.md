@@ -114,6 +114,10 @@ Below is a picture of the code we used.
 
 ![image1](./images/raspberrypi-8.jpeg)
 
+
+
+
+```python
 import Adafruit_DHT
 
 import time
@@ -209,6 +213,6 @@ while running:
         running = False
 
         file.close()
-
+```
 
 
