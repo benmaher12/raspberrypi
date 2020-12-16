@@ -216,3 +216,10 @@ while running:
 ```
 
 
+Today, I started off by signing up for an aws fundamentals course. It was mostly video based and included text and quizes also. I completed two modules and then began working with the raspberry pi.
+
+We first followed steps online for connecting the DHT11 with a new circuit and similar commands to previous steps. I set up the circuit using the sensor itself along with three cables and a 10k Ohm resistor. We followed the commands and entered them into a terminal and I then wrote the code needed. It did not work so we researched two more scripts of code and wrote them in new files. We were getting the same error over and over after making multiple changes to the files it was calling on the pi. The error mentioned Beaglebone Black which is another type of computer, similar to the pi. 
+
+The error was "cannot import name 'Beaglebone_Black_Driver' from 'Adafruit_DHT'"
+
+After numerous more attempts to bypass the error, we ran out of time and decided to end our troubleshooting.
